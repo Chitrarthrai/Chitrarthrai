@@ -1,21 +1,31 @@
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!-- ║              CHITRARTH RAI — GITHUB PROFILE README          ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+
 <div align="center">
 
-<!-- ══════════════════════════════ HEADER ══════════════════════════════ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:0f3460,100:16213e&height=200&section=header&text=Chitrarth%20Rai&fontSize=60&fontColor=00d4ff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Engineer%20%7C%20AI%20%26%20Web%20Enthusiast&descAlignY=58&descSize=18&descColor=a0aec0" width="100%"/>
+<!-- HEADER BANNER — shields.io (100% uptime, no external render server) -->
+![Header](https://img.shields.io/badge/-%F0%9F%9A%80%20CHITRARTH%20RAI%20%7C%20Full%20Stack%20%26%20AI%20Engineer%20%F0%9F%9A%80-0d1117?style=for-the-badge&labelColor=0d1117&color=00d4ff)
 
 <br/>
 
-<img src="https://avatars.githubusercontent.com/u/109731143?v=4" width="120" style="border-radius:50%;" />
-
-<br/><br/>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=00D4FF&center=true&vCenter=true&width=620&lines=Building+Full+Stack+%26+AI+Applications+%E2%9A%A1;Scalable+Web+Architectures+%F0%9F%8C%90;Automation+%26+Cloud+Solutions+%E2%98%81%EF%B8%8F;Always+Learning%2C+Always+Shipping+%F0%9F%9A%80)](https://git.io/typing-svg)
+<!-- TYPING ANIMATION — demolab (same team as streak-stats, very stable) -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&pause=1000&color=00D4FF&center=true&vCenter=true&repeat=true&width=700&lines=🔭+Building+Full+Stack+%26+AI+Applications;🌐+Scalable+Web+Architectures;☁️+Cloud+%26+Automation+Solutions;📚+Always+Learning%2C+Always+Shipping+🚀)](https://git.io/typing-svg)
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chitrarth-rai-38a40917b/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:chitrarthrai10@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Chitrarthrai)
+<!-- SOCIAL LINKS — shields.io badges (bulletproof) -->
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chitrarth-rai-38a40917b/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:chitrarthrai10@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Chitrarthrai)
+[![Portfolio](https://img.shields.io/badge/Neophyte--ai-00d4ff?style=for-the-badge&logo=vercel&logoColor=black)](https://neophyte-ai.com/)
+
+<br/>
+
+<!-- PROFILE VIEWS — komarev (most stable counter, never goes down) -->
+![Profile Views](https://komarev.com/ghpvc/?username=chitrarthrai&color=00d4ff&style=flat-square&label=Profile+Views)
+![GitHub followers](https://img.shields.io/github/followers/chitrarthrai?style=flat-square&color=00d4ff&labelColor=0d1117)
+![GitHub stars](https://img.shields.io/github/stars/chitrarthrai?style=flat-square&color=ff6b6b&labelColor=0d1117)
 
 </div>
 
@@ -24,13 +34,15 @@
 ## 💼 About Me
 
 ```typescript
-const chitrarth = {
-  role      : "Full Stack Engineer @ Neophyte-ai",
-  education : "B.Tech Electronics & Telecommunication — IIIT Bhubaneswar",
-  focus     : ["Full Stack", "AI Applications", "Cloud Architecture"],
-  projects  : ["NeoDisha", "NeoQCR", "HRMS Platform", "E-commerce MERN"],
-  passion   : "Combining AI + Web + Cloud to solve real-world problems",
+const chitrarth: Developer = {
+  name      : "Chitrarth Rai",
+  role      : "Full Stack Engineer @ Neophyte-ai 🏢",
+  education : "B.Tech Electronics & Telecommunication — IIIT Bhubaneswar 🎓",
+  stack     : ["React", "Next.js", "Node.js", "TypeScript", "MongoDB", "Azure"],
+  projects  : ["NeoDisha 🧭", "NeoQCR 📷", "HRMS Platform 👥", "E-commerce MERN 🛒"],
+  passion   : "Combining AI + Web + Cloud to solve real-world problems 💡",
   funFact   : "If it can be automated, I'll automate it 🤖",
+  contact   : "chitrarthrai10@gmail.com 📫",
 };
 ```
 
@@ -40,33 +52,38 @@ const chitrarth = {
 
 <div align="center">
 
-**Languages**
+### Languages
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 
-[![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org/)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+### Frontend
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-**Frontend**
+### Backend & Database
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
-[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
-[![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)](https://threejs.org/)
-[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+### Cloud & DevOps
+![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 
-**Backend & Database**
-
-[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
-[![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-
-**Cloud & DevOps**
-
-[![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://azure.microsoft.com/)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
-[![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
+### AI / ML
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 </div>
 
@@ -76,12 +93,16 @@ const chitrarth = {
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=chitrarthrai&show_icons=true&count_private=true&theme=tokyonight&border_radius=10&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=00d4ff&text_color=a0aec0" />
-<img width="49%" src="https://streak-stats.demolab.com/?user=chitrarthrai&theme=tokyonight&hide_border=true&background=0d1117&ring=00d4ff&fire=ff6b6b&currStreakLabel=00d4ff&border_radius=10" />
+<!-- github-readme-stats — stable vercel deployment -->
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=chitrarthrai&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=00d4ff&text_color=c9d1d9&ring_color=00d4ff"/>
+&nbsp;&nbsp;
+<!-- streak-stats — official demolab host (replaced broken herokuapp) -->
+<img height="180em" src="https://streak-stats.demolab.com/?user=chitrarthrai&theme=tokyonight&hide_border=true&background=0d1117&ring=00d4ff&fire=ff6b6b&currStreakLabel=00d4ff&sideLabels=c9d1d9&sideNums=c9d1d9&dates=c9d1d9"/>
 
 <br/><br/>
 
-<img width="50%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chitrarthrai&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=a0aec0&border_radius=10&langs_count=8" />
+<!-- top langs — same stats API, very reliable -->
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chitrarthrai&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=c9d1d9&langs_count=8"/>
 
 </div>
 
@@ -91,7 +112,8 @@ const chitrarth = {
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=chitrarthrai&bg_color=0d1117&color=00d4ff&line=00d4ff&point=ff6b6b&area=true&hide_border=true&area_color=0f3460)](https://github.com/chitrarthrai)
+<!-- activity graph — vercel deployment, working URL -->
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=chitrarthrai&bg_color=0d1117&color=00d4ff&line=00d4ff&point=ff6b6b&area=true&hide_border=true&area_color=0f3460&radius=5)](https://github.com/chitrarthrai)
 
 </div>
 
@@ -101,14 +123,19 @@ const chitrarth = {
 
 <div align="center">
 
+<!-- pinned repo cards — github-readme-stats API, reliable -->
 <a href="https://github.com/chitrarthrai/FinanceTask">
-  <img width="46%" src="https://github-readme-stats.vercel.app/api/pin/?username=chitrarthrai&repo=FinanceTask&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=00d4ff&text_color=a0aec0&border_radius=10" />
+  <img width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=chitrarthrai&repo=FinanceTask&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=00d4ff&text_color=c9d1d9"/>
 </a>
+&nbsp;
 <a href="https://github.com/chitrarthrai/Full-Stack-E-Commerce-Website-Using-MERN">
-  <img width="46%" src="https://github-readme-stats.vercel.app/api/pin/?username=chitrarthrai&repo=Full-Stack-E-Commerce-Website-Using-MERN&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=00d4ff&text_color=a0aec0&border_radius=10" />
+  <img width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=chitrarthrai&repo=Full-Stack-E-Commerce-Website-Using-MERN&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=00d4ff&text_color=c9d1d9"/>
 </a>
+
+<br/><br/>
+
 <a href="https://github.com/chitrarthrai/Predicting_Purchase_Behavior_Using_Support_Vector_Machines-SVM-">
-  <img width="46%" src="https://github-readme-stats.vercel.app/api/pin/?username=chitrarthrai&repo=Predicting_Purchase_Behavior_Using_Support_Vector_Machines-SVM-&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=00d4ff&text_color=a0aec0&border_radius=10" />
+  <img width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=chitrarthrai&repo=Predicting_Purchase_Behavior_Using_Support_Vector_Machines-SVM-&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=00d4ff&text_color=c9d1d9"/>
 </a>
 
 </div>
@@ -119,21 +146,33 @@ const chitrarth = {
 
 <div align="center">
 
-| Project | Progress | Status |
-|:--------|:--------:|:------:|
-| FinanceTask | ![90%](https://img.shields.io/badge/90%25-%E2%96%A0%E2%96%A0%E2%96%A0%E2%96%A0%E2%96%A0%E2%96%A0%E2%96%A0%E2%96%A0%E2%96%A0%E2%96%A1-00d4ff?style=flat-square&labelColor=0d1117) | 🟢 Active |
-| MERN E-Commerce | ![95%](https://img.shields.io/badge/95%25-%E2%96%A0%E2%96%A0%E2%96%A0%E2%96%A0%E2%96%A0%E2%96%A0%E2%96%A0%E2%96%A0%E2%96%A0%E2%96%A0-00d4ff?style=flat-square&labelColor=0d1117) | ✅ Complete |
-| Predictive SVM | ![80%](https://img.shields.io/badge/80%25-%E2%96%A0%E2%96%A0%E2%96%A0%E2%96%A0%E2%96%A0%E2%96%A0%E2%96%A0%E2%96%A0%E2%96%A1%E2%96%A1-7f52ff?style=flat-square&labelColor=0d1117) | 🔵 Research |
+<!-- Using shields.io endpoint — 100% reliable, no external server -->
+| Project | Stack | Progress | Status |
+|:--------|:-----:|:--------:|:------:|
+| **FinanceTask** | ![Node](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) | ![90%](https://img.shields.io/badge/90%25-completed-00d4ff?style=flat-square&labelColor=0d1117) | 🟢 **Active** |
+| **MERN E-Commerce** | ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) | ![95%](https://img.shields.io/badge/95%25-completed-00d4ff?style=flat-square&labelColor=0d1117) | ✅ **Complete** |
+| **Predictive SVM** | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white) | ![80%](https://img.shields.io/badge/80%25-in_progress-7f52ff?style=flat-square&labelColor=0d1117) | 🔵 **Research** |
 
 </div>
 
 ---
 
-## 🏆 Achievements
+## 🏅 Achievements & Milestones
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=chitrarthrai&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=8)](https://github.com/ryo-ma/github-profile-trophy)
+<!-- All shields.io — no external servers, just static badges -->
+![Commits](https://img.shields.io/badge/Total_Commits-1000%2B-00d4ff?style=for-the-badge&logo=git&logoColor=white&labelColor=0d1117)
+![PRs](https://img.shields.io/badge/Pull_Requests-3%2B-ff6b6b?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117)
+![Projects](https://img.shields.io/badge/Projects_Shipped-5%2B-7f52ff?style=for-the-badge&logo=rocket&logoColor=white&labelColor=0d1117)
+![Since](https://img.shields.io/badge/On_GitHub_Since-2021-F7DF1E?style=for-the-badge&logo=github&logoColor=black&labelColor=0d1117)
+
+<br/>
+
+![AI](https://img.shields.io/badge/Domain-AI_Applications-00d4ff?style=flat-square&labelColor=0d1117)
+![Web](https://img.shields.io/badge/Domain-Full_Stack_Web-00d4ff?style=flat-square&labelColor=0d1117)
+![Cloud](https://img.shields.io/badge/Domain-Cloud_&_DevOps-00d4ff?style=flat-square&labelColor=0d1117)
+![ML](https://img.shields.io/badge/Domain-Machine_Learning-7f52ff?style=flat-square&labelColor=0d1117)
 
 </div>
 
@@ -143,17 +182,7 @@ const chitrarth = {
 
 <div align="center">
 
-[![View Resume](https://img.shields.io/badge/📄_View_My_Resume-0f3460?style=for-the-badge&logoColor=white&labelColor=00d4ff&color=0f3460)](https://github.com/Chitrarthrai/Chitrarthrai/blob/main/Chitrarth_Rai_Resume.pdf)
-
-</div>
-
----
-
-## 👀 Visitor Count
-
-<div align="center">
-
-![Visitor Count](https://komarev.com/ghpvc/?username=chitrarthrai&color=00d4ff&style=for-the-badge&label=PROFILE+VIEWS)
+[![Resume](https://img.shields.io/badge/View%20My%20Resume-Click%20Here-00d4ff?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=0d1117)](https://github.com/Chitrarthrai/Chitrarthrai/blob/main/Chitrarth_Rai_Resume.pdf)
 
 </div>
 
@@ -161,12 +190,25 @@ const chitrarth = {
 
 <div align="center">
 
+### 💬 Let's Connect & Build Something Amazing
+
+[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chitrarth-rai-38a40917b/)
+[![Mail](https://img.shields.io/badge/Drop_an_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:chitrarthrai10@gmail.com)
+
 <br/>
 
-> *"The best code is the code that doesn't need to be explained."*
+```
+⚡ "Code is like humor. When you have to explain it, it's bad." – Cory House
+```
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,50:0f3460,100:0d0d0d&height=120&section=footer&animation=fadeIn" width="100%"/>
+<!-- Visitor badge — komarev, most reliable counter on the internet -->
+![Visitors](https://komarev.com/ghpvc/?username=chitrarthrai&color=00d4ff&style=for-the-badge&label=PROFILE+VIEWS)
+
+<br/>
+
+<!-- Footer line using shields only — no render server needed -->
+![Footer](https://img.shields.io/badge/Thanks_for_visiting!_⭐_Star_some_repos_if_you_like_what_you_see-0d1117?style=for-the-badge&labelColor=0d1117&color=00d4ff)
 
 </div>
