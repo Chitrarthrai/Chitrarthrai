@@ -60,10 +60,9 @@ const chitrarth: Developer = {
 
 ---
 
-## 🏆 GitHub Trophies
-
+## 🛠️ Languages & Tools
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Chitrarthrai&theme=tokyonight" alt="Chitrarth Rai Trophies" />
+  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,express,mongodb,postgres,redis,tailwind,threejs,html,css,cpp,kotlin,python,azure,docker,githubactions,git,postman&perline=7" alt="My Skills" />
 </div>
 
 ---
