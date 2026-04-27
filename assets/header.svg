@@ -1,0 +1,195 @@
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#050d1a"/>
+      <stop offset="50%"  stop-color="#0a1628"/>
+      <stop offset="100%" stop-color="#060e1c"/>
+    </linearGradient>
+
+    <filter id="glow-cyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glow-text" x="-10%" y="-40%" width="120%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glow-soft" x="-10%" y="-40%" width="120%" height="180%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <linearGradient id="scanline-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#00d4ff" stop-opacity="0"/>
+      <stop offset="20%"  stop-color="#00d4ff" stop-opacity="0.6"/>
+      <stop offset="50%"  stop-color="#00d4ff" stop-opacity="1"/>
+      <stop offset="80%"  stop-color="#00d4ff" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </linearGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00d4ff" stroke-width="0.2" stroke-opacity="0.15"/>
+    </pattern>
+
+    <clipPath id="clip-all">
+      <rect width="900" height="220"/>
+    </clipPath>
+
+    <style>
+      @keyframes scan {
+        0%   { transform: translateY(-10px); opacity: 0; }
+        5%   { opacity: 1; }
+        95%  { opacity: 1; }
+        100% { transform: translateY(230px); opacity: 0; }
+      }
+      @keyframes pulse-title {
+        0%, 100% { opacity: 1; }
+        50%       { opacity: 0.88; }
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; r: 4; }
+        50%       { opacity: 0.3; r: 2.5; }
+      }
+      @keyframes blink2 {
+        0%, 100% { opacity: 0.4; r: 3; }
+        50%       { opacity: 1; r: 5; }
+      }
+      @keyframes draw {
+        from { stroke-dashoffset: 300; }
+        to   { stroke-dashoffset: 0; }
+      }
+      @keyframes fadein {
+        from { opacity: 0; transform: translateY(8px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50%       { transform: translateY(-4px); }
+      }
+
+      .scanline  { animation: scan 3.5s linear infinite; }
+      .title     { animation: pulse-title 4s ease-in-out infinite; }
+      .node-a    { animation: blink  2.1s ease-in-out infinite; }
+      .node-b    { animation: blink  3.3s ease-in-out infinite 0.7s; }
+      .node-c    { animation: blink2 2.7s ease-in-out infinite 1.2s; }
+      .node-d    { animation: blink2 1.9s ease-in-out infinite 0.4s; }
+      .node-e    { animation: blink  2.5s ease-in-out infinite 1.8s; }
+
+      .line-a { stroke-dasharray: 300; animation: draw 2.2s ease forwards; }
+      .line-b { stroke-dasharray: 300; animation: draw 2.5s ease forwards 0.4s; stroke-dashoffset: 300; }
+      .line-c { stroke-dasharray: 300; animation: draw 2.0s ease forwards 0.8s; stroke-dashoffset: 300; }
+      .line-d { stroke-dasharray: 300; animation: draw 2.8s ease forwards 0.2s; stroke-dashoffset: 300; }
+
+      .b1 { animation: fadein 0.8s ease forwards 0.5s; opacity: 0; }
+      .b2 { animation: fadein 0.8s ease forwards 0.9s; opacity: 0; }
+      .b3 { animation: fadein 0.8s ease forwards 1.3s; opacity: 0; }
+      .b4 { animation: fadein 0.8s ease forwards 1.7s; opacity: 0; }
+
+      .fi  { animation: float 3.5s ease-in-out infinite; }
+      .fi2 { animation: float 4.1s ease-in-out infinite 1s; }
+    </style>
+  </defs>
+
+  <!-- BACKGROUND -->
+  <rect width="900" height="220" fill="url(#bg)" rx="10"/>
+  <rect width="900" height="220" fill="url(#grid)" rx="10"/>
+
+  <!-- BORDER -->
+  <rect x="1" y="1" width="898" height="218" rx="9" fill="none" stroke="#00d4ff" stroke-width="1" stroke-opacity="0.35"/>
+  <rect x="3" y="3" width="894" height="214" rx="8" fill="none" stroke="#00d4ff" stroke-width="0.4" stroke-opacity="0.15"/>
+
+  <!-- CORNERS -->
+  <polyline points="10,40 10,10 40,10"   fill="none" stroke="#00d4ff" stroke-width="2" stroke-opacity="0.9" filter="url(#glow-cyan)"/>
+  <polyline points="860,10 890,10 890,40" fill="none" stroke="#00d4ff" stroke-width="2" stroke-opacity="0.9" filter="url(#glow-cyan)"/>
+  <polyline points="10,180 10,210 40,210" fill="none" stroke="#00d4ff" stroke-width="2" stroke-opacity="0.9" filter="url(#glow-cyan)"/>
+  <polyline points="860,210 890,210 890,180" fill="none" stroke="#00d4ff" stroke-width="2" stroke-opacity="0.9" filter="url(#glow-cyan)"/>
+
+  <!-- CIRCUIT LINES -->
+  <g clip-path="url(#clip-all)">
+    <polyline class="line-a" points="0,60 60,60 80,80 80,140 60,160 0,160"   fill="none" stroke="#00d4ff" stroke-width="1"   stroke-opacity="0.4"/>
+    <polyline class="line-b" points="0,90 40,90 55,105 55,130 40,145 0,145"  fill="none" stroke="#00d4ff" stroke-width="0.7" stroke-opacity="0.25"/>
+    <polyline class="line-c" points="900,60 840,60 820,80 820,140 840,160 900,160"  fill="none" stroke="#00d4ff" stroke-width="1"   stroke-opacity="0.4"/>
+    <polyline class="line-d" points="900,90 860,90 845,105 845,130 860,145 900,145" fill="none" stroke="#00d4ff" stroke-width="0.7" stroke-opacity="0.25"/>
+    <line x1="100" y1="30"  x2="370" y2="30"  stroke="#00d4ff" stroke-width="0.5" stroke-opacity="0.2"/>
+    <line x1="530" y1="30"  x2="800" y2="30"  stroke="#00d4ff" stroke-width="0.5" stroke-opacity="0.2"/>
+    <line x1="100" y1="190" x2="370" y2="190" stroke="#00d4ff" stroke-width="0.5" stroke-opacity="0.2"/>
+    <line x1="530" y1="190" x2="800" y2="190" stroke="#00d4ff" stroke-width="0.5" stroke-opacity="0.2"/>
+  </g>
+
+  <!-- NODES -->
+  <circle class="node-a" cx="80"  cy="110" r="4" fill="#00d4ff" filter="url(#glow-cyan)"/>
+  <circle class="node-b" cx="820" cy="110" r="4" fill="#00d4ff" filter="url(#glow-cyan)"/>
+  <circle class="node-c" cx="60"  cy="60"  r="3" fill="#00d4ff" filter="url(#glow-cyan)"/>
+  <circle class="node-d" cx="840" cy="60"  r="3" fill="#00d4ff" filter="url(#glow-cyan)"/>
+  <circle class="node-e" cx="60"  cy="160" r="3" fill="#f97316" filter="url(#glow-cyan)"/>
+  <circle              cx="840" cy="160" r="3" fill="#f97316" filter="url(#glow-cyan)"/>
+
+  <!-- FLOATING ICONS — app dev themed -->
+  <text class="fi"  x="118" y="58"  font-size="17" fill="#00d4ff" opacity="0.55">⚡</text>
+  <text class="fi2" x="756" y="58"  font-size="17" fill="#00d4ff" opacity="0.55">🚀</text>
+  <text class="fi"  x="118" y="178" font-size="15" fill="#f97316" opacity="0.50">🛠</text>
+  <text class="fi2" x="756" y="178" font-size="15" fill="#f97316" opacity="0.50">🌐</text>
+
+  <!-- MAIN TITLE -->
+  <text class="title"
+    x="450" y="95"
+    text-anchor="middle"
+    font-family="'Courier New', Courier, monospace"
+    font-size="46"
+    font-weight="700"
+    letter-spacing="6"
+    fill="#00d4ff"
+    filter="url(#glow-text)">CHITRARTH RAI</text>
+
+  <!-- SUBTITLE -->
+  <text x="450" y="127"
+    text-anchor="middle"
+    font-family="'Courier New', Courier, monospace"
+    font-size="13"
+    letter-spacing="3.5"
+    fill="#a0aec0"
+    filter="url(#glow-soft)">FULL STACK ENGINEER  ·  WEB  ·  MOBILE  ·  CLOUD</text>
+
+  <!-- SKILL BADGES — app dev focused -->
+  <g class="b1">
+    <rect x="228" y="152" width="84" height="24" rx="4" fill="#00d4ff" fill-opacity="0.12" stroke="#00d4ff" stroke-width="0.8" stroke-opacity="0.6"/>
+    <text x="270" y="168" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#00d4ff" letter-spacing="1">⚛ REACT</text>
+  </g>
+  <g class="b2">
+    <rect x="322" y="152" width="84" height="24" rx="4" fill="#00d4ff" fill-opacity="0.12" stroke="#00d4ff" stroke-width="0.8" stroke-opacity="0.6"/>
+    <text x="364" y="168" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#00d4ff" letter-spacing="1">▲ NEXT.JS</text>
+  </g>
+  <g class="b3">
+    <rect x="416" y="152" width="84" height="24" rx="4" fill="#f97316" fill-opacity="0.10" stroke="#f97316" stroke-width="0.8" stroke-opacity="0.5"/>
+    <text x="458" y="168" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#f97316" letter-spacing="1">🟢 NODE.JS</text>
+  </g>
+  <g class="b4">
+    <rect x="510" y="152" width="84" height="24" rx="4" fill="#7f52ff" fill-opacity="0.10" stroke="#7f52ff" stroke-width="0.8" stroke-opacity="0.5"/>
+    <text x="552" y="168" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#a78bfa" letter-spacing="1">☁ AZURE</text>
+  </g>
+
+  <!-- STATUS DOT -->
+  <circle cx="449" cy="141" r="3" fill="#22c55e" filter="url(#glow-cyan)">
+    <animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="r"       values="3;4.5;3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="458" y="145" font-family="'Courier New', monospace" font-size="9" fill="#22c55e" letter-spacing="1" opacity="0.8">OPEN TO OPPORTUNITIES</text>
+
+  <!-- SCAN LINE -->
+  <rect class="scanline" x="0" y="0" width="900" height="2" fill="url(#scanline-grad)" opacity="0.55" rx="1"/>
+
+</svg>
