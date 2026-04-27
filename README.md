@@ -12,6 +12,13 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1000&color=00D4FF&center=true&vCenter=true&repeat=true&width=700&lines=⚡+Building+Scalable+Web+Applications;🌐+Full+Stack+%7C+React+%2B+Node.js+%2B+Next.js;📱+MERN+Stack+%7C+REST+APIs+%7C+Cloud+Deploy;🛠+Turning+Ideas+into+Working+Products+🚀)](https://git.io/typing-svg)
 
+<div align="center">
+
+### 🔭 Currently working on
+**Developing high-performance enterprise solutions at [Neophyte-ai](https://neophyte-ai.com/)**
+
+</div>
+
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chitrarth-rai-38a40917b/)
@@ -50,6 +57,14 @@ const chitrarth: Developer = {
   contact   : "chitrarthrai10@gmail.com 📫",
 };
 ```
+
+---
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=chitrarthrai&theme=tokyonight&no-bg=true&margin-w=15&column=5" alt="Chitrarth Rai Trophies" />
+</div>
 
 ---
 
@@ -106,6 +121,8 @@ const chitrarth: Developer = {
 <br/><br/>
 
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chitrarthrai&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=c9d1d9&langs_count=8"/>
+&nbsp;&nbsp;
+<img height="180em" src="https://github-readme-stats.vercel.app/api/wakatime?username=chitrarthrai&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=c9d1d9"/>
 
 </div>
 
