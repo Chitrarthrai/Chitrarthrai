@@ -229,10 +229,6 @@ const chitrarth: Developer = {
 
 <br/>
 
-![Visitors](https://komarev.com/ghpvc/?username=chitrarthrai&color=00d4ff&style=for-the-badge&label=PROFILE+VIEWS)
-
-<br/>
-
 ![Footer](https://img.shields.io/badge/Thanks_for_visiting!_⭐_Star_some_repos_if_you_like_what_you_see-0d1117?style=for-the-badge&labelColor=0d1117&color=00d4ff)
 
 </div>
