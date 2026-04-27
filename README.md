@@ -63,7 +63,7 @@ const chitrarth: Developer = {
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=chitrarthrai&theme=tokyonight&no-bg=true&margin-w=15&column=5" alt="Chitrarth Rai Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Chitrarthrai&theme=tokyonight" alt="Chitrarth Rai Trophies" />
 </div>
 
 ---
@@ -122,7 +122,7 @@ const chitrarth: Developer = {
 
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chitrarthrai&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=c9d1d9&langs_count=8"/>
 &nbsp;&nbsp;
-<img height="180em" src="https://github-readme-stats.vercel.app/api/wakatime?username=chitrarthrai&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=c9d1d9"/>
+<img height="180em" src="https://streak-stats.demolab.com/?user=Chitrarthrai&theme=tokyonight&hide_border=true&background=0d1117&ring=00d4ff&fire=ff6b6b&currStreakLabel=00d4ff&sideLabels=c9d1d9&sideNums=c9d1d9&dates=c9d1d9"/>
 
 </div>
 
