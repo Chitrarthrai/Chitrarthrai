@@ -176,7 +176,7 @@ const chitrarth: Developer = {
 
 <!--START_SECTION:activity-->
 
-1. 🔨 Recent commits and activity will appear here automatically after the GitHub Action runs.
+1. ℹ️ Labeled issue [#214](https://github.com/Kotatsu-Redo/Kotatsu-Redo/issues/214) in [Kotatsu-Redo/Kotatsu-Redo](https://github.com/Kotatsu-Redo/Kotatsu-Redo)
 <!--END_SECTION:activity-->
 
 ---
